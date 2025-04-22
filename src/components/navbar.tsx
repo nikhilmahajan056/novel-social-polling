@@ -16,13 +16,13 @@ export function Navbar() {
   return (
     <nav className="border-b">
       <div className="container flex h-16 items-center px-4">
-        <div className="mr-4 flex">
-          <a href="/dashboard" className="flex items-center space-x-2">
+        <div className="flex space-x-4">
+          <a href="/dashboard" className="flex items-center">
             <span className="text-xl font-bold">Novel Poll</span>
           </a>
         </div>
-        <div className="ml-auto flex items-center space-x-4">
-          <Button variant="ghost" onClick={handleSignOut}>
+        <div className="ml-auto flex items-center">
+          <Button variant="outline" onClick={handleSignOut}>
             Sign Out
           </Button>
         </div>
